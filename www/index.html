@@ -9,7 +9,7 @@
            
 
              $("#Continue").click(function () {
-                 window.location.href("/NTouch/www/Home.html");
+                 window.location = "/NTouch/www/Home.html";
             });
 
     });
@@ -52,9 +52,9 @@
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready.<br /><br />
-                    Click <input id="Continue" type="button" value="here" /> to continue.</p>
+                   </p>
             </div>
-           
+            Click <input id="Continue" type="button" value="here" /> to continue.
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
