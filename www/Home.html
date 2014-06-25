@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+     <link href="css/index.css" rel="stylesheet" type="text/css" />
+<head>
+    <title>DWA Mobile Home Page</title>
+</head>
+<body>
+    <div style="text-align: center"><h1>DWA Mobile Application</h1></div>
+    <br />
+    <br />
+    <br />
+    <h2>Dashboard</h2>
+    <br /><br />
+    <div style="display: block; margin-bottom: 10px;">
+        <input type="button" id="BtnEName" value="Search for an Employee by Name" />
+
+    </div>
+
+    <div style="display: block; margin-bottom: 10px;">
+        <input type="button" id="BtnEPic" value="Search for an Employee by Picture" />
+
+    </div>
+
+    <div style="display: block; margin-bottom: 10px;">
+        <input type="button" id="btnCube" value="Find That Cube!" />
+
+    </div>
+
+    <div style="display: block; margin-bottom: 10px;">
+        <input type="button" id="btnHelpDesk" value="Help Desk" />
+
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+
+
+        $("#BtnEName").click(function () {
+            location.href("/NTouch/www/EmployeeByName.html");
+        });
+
+        $("#BtnEPic").click(function () {
+            location.href("/NTouch/www/EmployeeByPic.html");
+        });
+
+        $("#btnCube").click(function () {
+            location.href("/NTouch/www/CubeFind.html");
+        });
+
+        $("#btnHelpDesk").click(function () {
+            location.href("/NTouch/www/HelpDesk.html");
+        });
+
+      
+
+    });
+</script>
+</html>
